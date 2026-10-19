@@ -45,6 +45,7 @@
             listSong.Size = new Size(492, 349);
             listSong.TabIndex = 0;
             listSong.SelectedIndexChanged += OnChanged;
+            listSong.DoubleClick += OnYoutube;
             // 
             // btnAdd
             // 
